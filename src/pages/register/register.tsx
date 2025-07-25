@@ -6,7 +6,7 @@ import {
   registerUserThunk,
   resetError,
   isAuthSelector
-} from '../../services/slices/user-slice';
+} from '../../services/slices/user/user-slice';
 import { useNavigate } from 'react-router-dom';
 
 export const Register: FC = () => {

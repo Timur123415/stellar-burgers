@@ -3,7 +3,7 @@ import { FC, SyntheticEvent, useEffect, useState } from 'react';
 import {
   updateUserInfoThunk,
   userSelector
-} from '../../services/slices/user-slice';
+} from '../../services/slices/user/user-slice';
 import { useDispatch, useSelector } from '../../services/store';
 
 export const Profile: FC = () => {

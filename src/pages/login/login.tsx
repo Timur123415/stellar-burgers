@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import {
   errorSelector,
   loginUserThunk
-} from '../../services/slices/user-slice';
+} from '../../services/slices/user/user-slice';
 
 export const Login: FC = () => {
   const [email, setEmail] = useState('');

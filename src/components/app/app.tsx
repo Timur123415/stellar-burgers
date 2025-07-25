@@ -12,13 +12,13 @@ import {
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from '../../services/store';
-import { fetchIngredientsThunk } from '../../services/slices/ingredients-slice';
-import { fetchUserThunk } from '../../services/slices/user-slice';
+import { fetchIngredientsThunk } from '../../services/slices/ingredients/ingredients-slice';
+import { fetchUserThunk } from '../../services/slices/user/user-slice';
 import { AppHeader, IngredientDetails, Modal, OrderInfo } from '@components';
 import '../../index.css';
 import styles from './app.module.css';
 import { ProtectedRoute } from '../protected-route';
-import { isLoadingOrderSelector } from '../../services/slices/feed-slice';
+import { isLoadingOrderSelector } from '../../services/slices/feed/feed-slice';
 
 const App = () => {
   const location = useLocation();

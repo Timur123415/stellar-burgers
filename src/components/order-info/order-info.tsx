@@ -7,8 +7,8 @@ import {
   fetchOrderByNumberThunk,
   orderSelector,
   isLoadingOrderSelector
-} from '../../services/slices/feed-slice';
-import { ingredientsSelector } from '../../services/slices/ingredients-slice';
+} from '../../services/slices/feed/feed-slice';
+import { ingredientsSelector } from '../../services/slices/ingredients/ingredients-slice';
 import { useParams } from 'react-router-dom';
 
 export const OrderInfo: FC<{ isModal?: boolean }> = ({ isModal = false }) => {

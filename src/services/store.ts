@@ -1,9 +1,9 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import ingredients from './slices/ingredients-slice';
-import burgerConstructor from './slices/burger-constructor-slice';
-import user from './slices/user-slice';
-import feed from './slices/feed-slice';
-import order from './slices/order-slice';
+import ingredients from './slices/ingredients/ingredients-slice';
+import burgerConstructor from './slices/burger-constructor/burger-constructor-slice';
+import user from './slices/user/user-slice';
+import feed from './slices/feed/feed-slice';
+import order from './slices/order/order-slice';
 
 import {
   TypedUseSelectorHook,

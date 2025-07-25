@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ProfileMenuUI } from '@ui';
 import { useDispatch } from '../../services/store';
-import { logoutUserThunk } from '../../services/slices/user-slice';
+import { logoutUserThunk } from '../../services/slices/user/user-slice';
 
 export const ProfileMenu: FC = () => {
   const navigate = useNavigate();
